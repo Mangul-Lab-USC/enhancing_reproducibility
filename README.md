@@ -3,7 +3,7 @@
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Mangul-Lab-USC.github.io/enhancing_reproducibility/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Mangul-Lab-USC.github.io/enhancing_reproducibility/manuscript.pdf)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Mangul-Lab-USC.github.io/enhancing_reproducibility/output/manuscript.pdf)
 [![Build Status](https://travis-ci.com/Mangul-Lab-USC/enhancing_reproducibility.svg?branch=master)](https://travis-ci.com/Mangul-Lab-USC/enhancing_reproducibility)
 
 ## Manuscript description
