@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Recommendations to Enhance Rigor and Reproducibility in Biomedical"
 keywords:
   - markdown
   - publishing
@@ -7,21 +7,46 @@ keywords:
 lang: en-US
 authors:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: jaquejbrito
+    name: Jaqueline J. Brito
+    initials: JJB
+    orcid: 0000-0002-7158-3253
+    twitter: jaquejbrito
+    email: britoj@usc.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
+      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
   -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    name: Jiu Li
+    initials: JL
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      -  Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan
+  -
+   name: Jason H. Moore
+   initials: JHM
+   affiliations:
+     -  Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania
+  -
+   name: Casey S. Greene
+   orcid: 0000-0001-8713-9213
+   initials: CSG
+   affiliations:
+     -   Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania,
+     - Childhood Cancer Data Lab
+  -
+    name: Nicole A. Nogoy
+    orcid: 0000-0002-5192-9835
+    initials: NAN
+    affiliations:
+      -   GigaScience
+  -
+    name: Lana X. Garmire
+    initials: LXG
+    affiliations:
+      -   Department of Computational Medicine & Bioinformatics, Medical School, University of Michigan
+  -
+    github: smangul1
+    orcid: 0000-0003-4770-3443
+    name: Serghei Mangul
+    initials: SM
+    affiliations:
+      -   Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
