@@ -1,7 +1,6 @@
 # Generated manuscript output files
 output/*
 !output/README.md
-!output/manuscript.pdf
 webpage/v
 
 # When PDF building fails, a temporary symlink named images in the root
