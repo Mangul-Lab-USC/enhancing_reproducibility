@@ -1,0 +1,148 @@
+{
+  "pandoc": {
+    "title": "Recommendations to Enhance Rigor and Reproducibility in Biomedical",
+    "keywords": [
+      "markdown",
+      "publishing",
+      "manubot"
+    ],
+    "lang": "en-US",
+    "date-meta": "2020-02-21",
+    "author-meta": [
+      "Jaqueline J. Brito",
+      "Jiu Li",
+      "Jason H. Moore",
+      "Casey S. Greene",
+      "Nicole A. Nogoy",
+      "Lana X. Garmire",
+      "Serghei Mangul"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Recommendations to Enhance Rigor and Reproducibility in Biomedical\" />\n<meta name=\"citation_title\" content=\"Recommendations to Enhance Rigor and Reproducibility in Biomedical\" />\n<meta property=\"og:title\" content=\"Recommendations to Enhance Rigor and Reproducibility in Biomedical\" />\n<meta property=\"twitter:title\" content=\"Recommendations to Enhance Rigor and Reproducibility in Biomedical\" />\n<meta name=\"dc.date\" content=\"2020-02-21\" />\n<meta name=\"citation_publication_date\" content=\"2020-02-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Jiu Li\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine &amp;amp; Bioinformatics, Medical School, University of Michigan\" />\n<meta name=\"citation_author\" content=\"Jason H. Moore\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania,\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Nicole A. Nogoy\" />\n<meta name=\"citation_author_institution\" content=\"GigaScience\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5192-9835\" />\n<meta name=\"citation_author\" content=\"Lana X. Garmire\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+  },
+  "manubot": {
+    "date": "February 21, 2020",
+    "authors": [
+      {
+        "github": "jaquejbrito",
+        "name": "Jaqueline J. Brito",
+        "initials": "JJB",
+        "orcid": "0000-0002-7158-3253",
+        "twitter": "jaquejbrito",
+        "email": "britoj@usc.edu",
+        "affiliations": [
+          "Department of Clinical Pharmacy, School of Pharmacy, University of Southern California"
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "name": "Jiu Li",
+        "initials": "JL",
+        "affiliations": [
+          "Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "name": "Jason H. Moore",
+        "initials": "JHM",
+        "affiliations": [
+          "Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "name": "Casey S. Greene",
+        "orcid": "0000-0001-8713-9213",
+        "initials": "CSG",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania,",
+          "Childhood Cancer Data Lab"
+        ],
+        "affiliation_numbers": [
+          4,
+          5
+        ]
+      },
+      {
+        "name": "Nicole A. Nogoy",
+        "orcid": "0000-0002-5192-9835",
+        "initials": "NAN",
+        "affiliations": [
+          "GigaScience"
+        ],
+        "affiliation_numbers": [
+          6
+        ]
+      },
+      {
+        "name": "Lana X. Garmire",
+        "initials": "LXG",
+        "affiliations": [
+          "Department of Computational Medicine & Bioinformatics, Medical School, University of Michigan"
+        ],
+        "affiliation_numbers": [
+          7
+        ]
+      },
+      {
+        "github": "smangul1",
+        "orcid": "0000-0003-4770-3443",
+        "name": "Serghei Mangul",
+        "initials": "SM",
+        "affiliations": [
+          "Department of Clinical Pharmacy, School of Pharmacy, University of Southern California"
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Department of Clinical Pharmacy, School of Pharmacy, University of Southern California",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania,",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "Childhood Cancer Data Lab",
+        "affiliation_number": 5
+      },
+      {
+        "affiliation": "GigaScience",
+        "affiliation_number": 6
+      },
+      {
+        "affiliation": "Department of Computational Medicine & Bioinformatics, Medical School, University of Michigan",
+        "affiliation_number": 7
+      }
+    ],
+    "manubot_version": "0.3.0",
+    "rootstock_commit": "06fb01d0c8e5c1ca7632cd17c27d3fddd0691386",
+    "manuscript_stats": {
+      "reference_counts": {
+        "doi": 19,
+        "pmid": 4,
+        "url": 2,
+        "total": 25
+      },
+      "word_count": 3154
+    }
+  }
+}
