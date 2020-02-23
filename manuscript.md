@@ -7,7 +7,7 @@ author-meta:
 - Nicole A. Nogoy
 - Lana X. Garmire
 - Serghei Mangul
-date-meta: '2020-02-22'
+date-meta: '2020-02-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Recommendations to Enhance Rigor and Reproducibility in Biomedical" />
 
-  <meta name="dc.date" content="2020-02-22" />
+  <meta name="dc.date" content="2020-02-23" />
 
-  <meta name="citation_publication_date" content="2020-02-22" />
+  <meta name="citation_publication_date" content="2020-02-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -107,7 +107,7 @@ title: Recommendations to Enhance Rigor and Reproducibility in Biomedical
 <small><em>
 This manuscript
 was automatically generated
-on February 22, 2020.
+on February 23, 2020.
 </em></small>
 
 ## Authors
@@ -235,32 +235,32 @@ To facilitate the reproducibility of tools it is good practice to utilize virtua
 <tbody>
 <tr class="odd">
 <td><strong>Reproducible and open methods</strong></td>
-<td><strong>Protocols.io</strong> An open-source protocol repository, where researchers can manage, share, tweak, optimize and adopt existing methods even after a scientist has left a lab.</td>
+<td><strong>Protocols.io</strong> is an open-source protocol repository, where researchers can manage, share, tweak, optimize and adopt existing methods even after a scientist has left a lab.</td>
 </tr>
 <tr class="even">
 <td><strong>RRIDs</strong></td>
-<td><strong>Scicrunch.org</strong> A platform for curating research resources that enables the user to discover, access, view, and use research objects. Users can register any research object, such as tools, antibodies, animal models etc In turn,. these get issued a RRID (Research Resource ID) which should be cited in the manuscript. The RRID allows other users to easily locate and access the resources.</td>
+<td><strong>Scicrunch.org</strong> is a platform for curating research resources that enables the user to discover, access, view, and use research objects. Users can register any research object, such as tools, antibodies, animal models etc In turn,. these get issued a RRID (Research Resource ID) which should be cited in the manuscript. The RRID allows other users to easily locate and access the resources.</td>
 </tr>
 <tr class="odd">
 <td><strong>Annotations</strong></td>
-<td><strong>Hypothes.is</strong> Is an open-source annotation tool that allows any researcher to annotate any resource on the web, including to create annotations for personal use or as part of conversations with private groups or the general public.</td>
+<td><strong>Hypothes.is</strong> is an open-source annotation tool that allows any researcher to annotate any resource on the web, including to create annotations for personal use or as part of conversations with private groups or the general public.</td>
 </tr>
 <tr class="even">
 <td><strong>Virtual Machines &amp; Containers</strong></td>
-<td>Containers such as <strong>Docker</strong>(www.docker.com), and <strong>Singularity</strong> (singularity.lbl.gov) are lightweight solutions compared to VMs as they do not encapsulate the operating system; rather, they rely on the host kernel to run required functions. Both VMs and containers are shared via image files and can be included as supplementary material at certain journals or stored in Zenodo (https://zenodo.org/), Figshare (https://figshare.com/), or other general-purpose archival repositories.</td>
+<td>Containers such as <strong>Docker</strong>(<a href="https://www.docker.com"><span class="underline">www.docker.com</span></a>), and <strong>Singularity</strong> (<a href="https://singularity.lbl.gov"><span class="underline">singularity.lbl.gov</span></a>) are lightweight solutions compared to VMs as they do not encapsulate the operating system; rather, they rely on the host kernel to run required functions. Both VMs and containers are shared via image files and can be included as supplementary material at certain journals or stored in Zenodo (<a href="https://zenodo.org/"><span class="underline">https://zenodo.org/</span></a>), Figshare (<a href="https://figshare.com/"><span class="underline">https://figshare.com/</span></a>), or other general-purpose archival repositories.</td>
 </tr>
 <tr class="odd">
 <td><strong>Reproducible workflows</strong></td>
-<td><p><strong>Galaxy</strong> (<a href="https://galaxyproject.org/"><span class="underline">https://galaxyproject.org/</span></a>) - a computational platform which allows users to share workflows, histories and wrapped tools in an easy-to-use and open source interface that even people without coding experience can use.,</p>
+<td><p><strong>Galaxy</strong> (<a href="https://galaxyproject.org/"><span class="underline">https://galaxyproject.org/</span></a>) is a computational platform which allows users to share workflows, histories and wrapped tools in an easy-to-use and open source interface that even people without coding experience can use.,</p>
 <p><strong>Conda</strong> (<a href="https://conda.io/"><span class="underline">https://conda.io/</span></a>) is a powerful open source package and management system that can quickly install, run and update packages and their dependencies.</p>
-<p><strong>Bioconda</strong> (<a href="https://bioconda.github.io/"><span class="underline">https://bioconda.github.io/</span></a>) - leveraging Conda, it is a community project and package manager dedicated to the life sciences and biomedical tools.</p>
-<p><strong>Common workflow language (CWL)</strong>, <a href="https://www.commonwl.org/"><span class="underline">https://www.commonwl.org</span></a> )- is an open standard used to describe workflows and tools to make them portable and interoperable across different environments e.g. cloud, cluster or high performance computing.</p></td>
+<p><strong>Bioconda</strong> (<a href="https://bioconda.github.io/"><span class="underline">https://bioconda.github.io/</span></a>) leverages Conda, it is a community project and package manager dedicated to the life sciences and biomedical tools.</p>
+<p><strong>Common workflow language (CWL)</strong> (<a href="https://www.commonwl.org/"><span class="underline">https://www.commonwl.org</span></a> )- is an open standard used to describe workflows and tools to make them portable and interoperable across different environments e.g. cloud, cluster or high performance computing.</p></td>
 </tr>
 <tr class="even">
 <td><strong>Reproducible documents &amp; Figures</strong></td>
 <td><p><strong>Stencila</strong> (<a href="https://stenci.la/"><span class="underline">https://stenci.la/</span></a>) is an open source framework for executable documents and living figures (using R scripts). It supports commonly used environments and tools, such as Juptyer notebook, RMarkdown, Python and SQL.</p>
-<p><strong>Jupyter Notebook</strong> (<a href="https://jupyter.org/"><span class="underline">https://jupyter.org/</span></a>) - allows for the creation of sharing of live code, equations, visualizations and narrative text. The application supports over 40 different programming languages and can be used to leverage big data.</p>
-<p><strong>MyBinder</strong> (<a href="https://mybinder.org/"><span class="underline">https://mybinder.org/</span></a>) - is an application that collects and ‘binds’ interactive jupyter notebooks into a Binder repository and can also create a Docker image of that.</p></td>
+<p><strong>Jupyter Notebook</strong> (<a href="https://jupyter.org/"><span class="underline">https://jupyter.org/</span></a>) allows for the creation of sharing of live code, equations, visualizations and narrative text. The application supports over 40 different programming languages and can be used to leverage big data.</p>
+<p><strong>MyBinder</strong> (<a href="https://mybinder.org/"><span class="underline">https://mybinder.org/</span></a>)  is an application that collects and ‘binds’ interactive jupyter notebooks into a Binder repository and can also create a Docker image of that.</p></td>
 </tr>
 </tbody>
 </table>
