@@ -9,7 +9,7 @@
 ## Manuscript description
 
 <!-- usage note: edit this section. -->
-This repository is a dynamic version of the paper "Recommendations to Enhance Rigor and Reproducibility in Biomedical" with an extended list of references.
+This repository is a dynamic version of the paper "Recommendations to enhance rigor and reproducibility in biomedical research" with an extended list of references.
 
 
 ## Manubot
