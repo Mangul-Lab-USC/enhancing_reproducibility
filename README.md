@@ -4,14 +4,13 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Mangul-Lab-USC.github.io/enhancing_reproducibility/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Mangul-Lab-USC.github.io/enhancing_reproducibility/manuscript.pdf)
-[![Build Status](https://travis-ci.com/Mangul-Lab-USC/enhancing_reproducibility.svg?branch=master)](https://travis-ci.com/Mangul-Lab-USC/enhancing_reproducibility)
+<!--[![Build Status](https://travis-ci.com/Mangul-Lab-USC/enhancing_reproducibility.svg?branch=master)](https://travis-ci.com/Mangul-Lab-USC/enhancing_reproducibility)-->
 
 ## Manuscript description
 
 <!-- usage note: edit this section. -->
+This repository is a dynamic version of the paper "Recommendations to Enhance Rigor and Reproducibility in Biomedical" with an extended list of references.
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
 
 ## Manubot
 

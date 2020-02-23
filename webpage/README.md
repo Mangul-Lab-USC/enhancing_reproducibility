@@ -1,8 +1,8 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/$TRAVIS_REPO_SLUG/tree/gh-pages) branch hosts the contents of this directory at https://$OWNER_NAME.github.io/$REPO_NAME/.
-The permalink for this webpage version is https://$OWNER_NAME.github.io/$REPO_NAME/v/$TRAVIS_COMMIT/.
-To redirect to the permalink for the latest manuscript version at anytime, use the link https://$OWNER_NAME.github.io/$REPO_NAME/v/freeze/.
+The [`gh-pages`](https://github.com/$TRAVIS_REPO_SLUG/tree/gh-pages) branch hosts the contents of this directory at https://Mangul-Lab-USC.github.io/enhancing_reproducibility/.
+The permalink for this webpage version is https://Mangul-Lab-USC.github.io/enhancing_reproducibility/v/$TRAVIS_COMMIT/.
+To redirect to the permalink for the latest manuscript version at anytime, use the link https://Mangul-Lab-USC.github.io/enhancing_reproducibility/v/freeze/.
 
 ## Files
 
