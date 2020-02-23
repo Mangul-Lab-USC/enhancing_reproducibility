@@ -18,13 +18,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Recommendations to Enhance Rigor and Reproducibility in Biomedical" />
+  <meta name="dc.title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
 
-  <meta name="citation_title" content="Recommendations to Enhance Rigor and Reproducibility in Biomedical" />
+  <meta name="citation_title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
 
-  <meta property="og:title" content="Recommendations to Enhance Rigor and Reproducibility in Biomedical" />
+  <meta property="og:title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
 
-  <meta property="twitter:title" content="Recommendations to Enhance Rigor and Reproducibility in Biomedical" />
+  <meta property="twitter:title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
 
   <meta name="dc.date" content="2020-02-23" />
 
@@ -98,7 +98,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-title: Recommendations to Enhance Rigor and Reproducibility in Biomedical
+title: Recommendations to enhance rigor and reproducibility in biomedical research
 ...
 
 
