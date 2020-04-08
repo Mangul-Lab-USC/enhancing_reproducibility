@@ -11,7 +11,7 @@
   <meta name="author" content="Nicole A. Nogoy" />
   <meta name="author" content="Lana X. Garmire" />
   <meta name="author" content="Serghei Mangul" />
-  <meta name="dcterms.date" content="2020-02-23" />
+  <meta name="dcterms.date" content="2020-04-08" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Recommendations to enhance rigor and reproducibility in biomedical research</title>
   <style>
@@ -34,8 +34,8 @@
   <meta name="citation_title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
   <meta property="og:title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
   <meta property="twitter:title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
-  <meta name="dc.date" content="2020-02-23" />
-  <meta name="citation_publication_date" content="2020-02-23" />
+  <meta name="dc.date" content="2020-04-08" />
+  <meta name="citation_publication_date" content="2020-04-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -76,7 +76,7 @@
 <p><small><em>
 This manuscript
 was automatically generated
-on February 23, 2020.
+on April 8, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -128,36 +128,41 @@ Department of Clinical Pharmacy, School of Pharmacy, University of Southern Cali
 While the biomedical community is increasingly dependent on
 computational tools, the mechanisms ensuring open data, open software,
 and reproducibility are variably enforced by academic institutions,
-funders and publishers. Publications may describe the software for which
-source code is unavailable, documentation is incomplete or unmaintained,
-and analytical source code is missing. Publications that lack this
-information compromise the role of peer review in evaluating technical
-strength and scientific contribution. Such flaws also limit any
-subsequent work that intends to use the described software. We herein
-provide recommendations to improve reproducibility, transparency, and
-rigor in computational biology—precisely the values which should be
-emphasized in foundational life and medical science curricula. Our
-recommendations for improving software availability, usability, and
-archival stability aim to foster a sustainable data science ecosystem in
-biomedicine and life science research.</p>
+funders, and publishers. Publications may present academic software for
+which essential materials are or become unavailable, such as source code
+and documentation. Publications that lack such information compromise
+the role of peer review in evaluating technical strength and scientific
+contribution. Incomplete ancillary information for an academic software
+package may bias or limit any subsequent work produced with the tool. We
+provide eight recommendations across four different domains to improve
+reproducibility, transparency, and rigor in computational
+biology — precisely the main values which should be emphasized in life
+science curricula. Our recommendations for improving software
+availability, usability, and archival stability aim to foster a
+sustainable data science ecosystem in biomedicine and life science
+research.</p>
 <p><strong>Keywords</strong>: Rigor, reproducible research, installability, archival
 stability, big data, open science</p>
 <h2 id="introduction">Introduction</h2>
-<p>Biomedical informatics has the opportunity to be at the forefront of the community in developing practices that promote open data, open software, and reproducible research. The computational reproduction of previously published results is enabled when scientists publicly release all research resources, from raw data to installable packages and source code, in a discoverable and archivally stable manner. Publications lacking data or source code undermine scientific rigor, transparency, and reproducibility <span class="citation" data-cites="15x3dyh2J"><a href="#ref-15x3dyh2J" role="doc-biblioref">1</a></span>. Platforms already exist that support public release of scientific materials, but the lack of strict enforcement by journals, academic institutions, and funding agencies has resulted in the loss of crucial research objects for many published studies.</p>
-<p>An astonishing number of bioinformatics software tools are designed each year to accommodate increasingly bigger, more complex, and more specialized biomedical datasets <span class="citation" data-cites="13B4usRXp"><a href="#ref-13B4usRXp" role="doc-biblioref">2</a></span>. Many of those software tools have limited installability and are hosted on Uniform Resource Locators (URLs) with undetermined archiving practices <span class="citation" data-cites="nRK3rx6P"><a href="#ref-nRK3rx6P" role="doc-biblioref">3</a></span>. Closed-source software presents unique challenges to reproducibility as researchers may not have access to the source code. Lack of access to the source code of a software package does not support the auditing of methods and results, and ultimately harms the transparency of research. We identify and discuss a pressing need for scientists to improve software availability, usability, and archival stability in computational biology. By following a set of best practices <span class="citation" data-cites="yp3Au04m"><a href="#ref-yp3Au04m" role="doc-biblioref">4</a></span>, scientists can promote rigor and reproducibility, ultimately cultivating a sustainable, thriving research community.</p>
-<h2 id="increase-computational-training-opportunities-targeted-at-reproducibility">1. Increase computational training opportunities targeted at reproducibility</h2>
-<p>Biomedical researchers who use computational tools must acquire specific computational skills in order to successfully apply the techniques to a large amount of data. Undergraduate students who lack formal computational training can be taught the skills required to promote reproducibility via specialized courses <span class="citation" data-cites="tXK4zFfI"><a href="#ref-tXK4zFfI" role="doc-biblioref">5</a></span>. In addition to rigorous class training, advanced undergraduate and graduate students may benefit from short-term intensive workshops aimed at postdoctoral scholars, clinical fellows, and faculty <span class="citation" data-cites="frogaOLI"><a href="#ref-frogaOLI" role="doc-biblioref">6</a></span>. Several institutions, including the University of California, Los Angeles, have successfully hosted workshop-based programs for over five years and serve as valuable resources for pedagogy and curricula <span class="citation" data-cites="13MM3iDcG"><a href="#ref-13MM3iDcG" role="doc-biblioref">7</a></span>,<span class="citation" data-cites="16xQjNgsl"><a href="#ref-16xQjNgsl" role="doc-biblioref">8</a></span>. Workshops for training researchers to use computational tools usually include hands-on training for implementing analysis tools, such as cloud-based notebook technologies. Since 1998, Software Carpentry (<a href="https://software-carpentry.org/"><span class="underline">https://software-carpentry.org/</span></a><strong>)</strong> has been holding volunteer-based training courses for researchers with the computational skills required to keep up with the demands of data- and computational-intensive research. Due to the reliance of today’s analytical software packages on use of the command line, comprehensive computational training programs are ideal methods for training future life science and biomedical researchers towards reproducibility (<strong>Figure 1a</strong>).</p>
-<h2 id="make-all-data-and-metadata-open-and-discoverable">2. Make all data and metadata open and discoverable</h2>
-<p>Open source code depends on the availability of open and shareable data. Access to the data used to produce important research results is key for auditing the rigor of published studies. Open access to datasets is imperative to building a thriving and sustainable scientific community where all researchers can access and analyze existing data. In practice, omics data of patients often cannot be shared publicly due to patient privacy and/or user agreement standards <span class="citation" data-cites="XNSkD2Xf"><a href="#ref-XNSkD2Xf" role="doc-biblioref">9</a></span>, <span class="citation" data-cites="C4n5NL6O"><a href="#ref-C4n5NL6O" role="doc-biblioref">10</a></span>, <span class="citation" data-cites="19FpaE98z"><a href="#ref-19FpaE98z" role="doc-biblioref">11</a></span>, <span class="citation" data-cites="6byZMlpn"><a href="#ref-6byZMlpn" role="doc-biblioref">12</a></span>, <span class="citation" data-cites="4hNVaOa3"><a href="#ref-4hNVaOa3" role="doc-biblioref">13</a></span>, <span class="citation" data-cites="1BSJmq1dk"><a href="#ref-1BSJmq1dk" role="doc-biblioref">14</a></span>, <span class="citation" data-cites="f4rUvDTZ"><a href="#ref-f4rUvDTZ" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="w3jYWJ2x"><a href="#ref-w3jYWJ2x" role="doc-biblioref">16</a></span>. While not all data are freely publicly available, many studies provide controlled access, where researchers can access the raw data if they are approved after providing scientific rationale for access and signing user agreements. Also, in many cases where raw data are not accessible by the public, summary data are available. In general, the global data sharing climate has shifted towards a positive direction.</p>
-<p>Sharing data can enable the reproducibility and robustness of science because of our ability to utilize data generated from individual studies to a larger scale. In addition, secondary analysis is economically sustainable and can be adopted as standard practice by scientists in countries with limited resources <span class="citation" data-cites="9X2ojaGb"><a href="#ref-9X2ojaGb" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="hAXMNctD"><a href="#ref-hAXMNctD" role="doc-biblioref">18</a></span>. Ideally, data should also be discoverable via centralized repositories, such as Sequence Read Archive (SRA) and Gene Expression Omnibus (GEO), and annotated with descriptive metadata to enhance data reuse (<strong>Figure 1b</strong>). When data is shared on centralized repositories in interoperable formats, other researchers can examine and re-analyze the data, challenge existing interpretations, and test new theories. Data sharing corresponds to the true spirit of science, where each new discovery is built upon previous work and ultimately allows us to “stand on the shoulders of giants”. Many important scientific discoveries have been solely based on shared data (e.g., economics, meteorology, and physics). In general, reusing the data speaks about the quality and importance of generated data and contributed to the impact of the original work.</p>
-<h2 id="build-and-use-open-source-software">3. Build and use open-source software</h2>
-<p>Software provides a foundation for the potential reproducibility of published biomedical research, defined as the ability to replicate published findings by running the same computational tool on data generated by the study <span class="citation" data-cites="yp3Au04m"><a href="#ref-yp3Au04m" role="doc-biblioref">4</a></span>;<span class="citation" data-cites="tXK4zFfI"><a href="#ref-tXK4zFfI" role="doc-biblioref">5</a></span>. For this reason, closed-source and proprietary software restricts the reproducibility of biomedical research. First, researchers may not have access to the source code, which limits other researchers’ ability to audit results and reviewers’ ability to test the reproducibility prior to publication. Second, license restrictions may prohibit the creation of new functionalities that could be released on modified versions of existing tools. The cost of acquisition and maintenance of proprietary software licenses is not affordable for every laboratory. Reviewers may also not have access to proprietary software, and thus, may be unable to fully test the reproducibility of results. Therefore, the adoption of standard open-source licenses for data and software tools can enhance the rigor and impact of research by allowing any researcher to reproduce published studies.</p>
-<p>Publicly releasing the source code does not guarantee the computational reproducibility of biomedical research. The open code must be well documented with user manuals and installable in a user-friendly manner. The code used in a published analysis should be hosted on an archivally stable platform such as GitHub (<strong>Figure 1c</strong>). Currently, over a quarter of computational software resources cannot be accessed through the URLs provided in the original publication, suggesting that the repositories are poorly maintained <span class="citation" data-cites="nRK3rx6P"><a href="#ref-nRK3rx6P" role="doc-biblioref">3</a></span>. Additionally, many bioinformatics tools are too difficult, or even impossible, for a new user to install <span class="citation" data-cites="nRK3rx6P"><a href="#ref-nRK3rx6P" role="doc-biblioref">3</a></span>. Use of Open Source Initiative license models (<a href="https://opensource.org/licenses"><span class="underline">https://opensource.org/licenses</span></a>) allows users to easily use and adapt tools, increasing the sustainability of the biomedical research community. New platforms are also being proposed, such as CODE CHECK (<a href="https://sje30.github.io/codecheck/"><span class="underline">https://sje30.github.io/codecheck/</span></a>), where researchers can, input their code and data, and check that their analysis is reproducible. For verified analyses, CODE CHECK issues a time-stamped “<em>certificate of reproducible computation</em>” which can inform the peer reviewer of a paper.</p>
-<h2 id="use-platforms-that-enhance-reproducibility">4. Use platforms that enhance reproducibility</h2>
-<p>In addition to software and datasets, computational biology researchers commonly produce resources such as experiment protocols, workflows, and annotations. Storing and sharing these resources allows other researchers to cite them within a publication, which would increase the reproducibility of a paper and the visibility of previously developed methods. The inclusion of citable digital object identifiers (DOIs) also facilitates the discovery of reusable resources as they provide long-term access to published resources. Several innovative platforms designed to promote reproducibility have recently emerged (<strong>Figure 1d</strong>).</p>
-<h2 id="make-tools-and-workflows-reproducible">5. Make tools and workflows reproducible</h2>
-<p>To facilitate the reproducibility of tools it is good practice to utilize virtual machines (VMs) and containers. VMs are software pieces that are capable of encapsulating entire operating systems, libraries, codes, and data. For workflows, it is good practice to utilize workflow-specific platforms to enhance reproducibility <span class="citation" data-cites="74cIRMFz"><a href="#ref-74cIRMFz" role="doc-biblioref">19</a></span>, such as Galaxy or Bioconda, and workflow standards, such as CWL (Common Workflow Language) <strong>(Table 1</strong>). There are now a myriad of platforms and tools available that make research reproducible and are already commonly used by life science and biomedical researchers <strong>(Table 1</strong>). Given the many different tools and platforms available that can promote reproducibility, a research lab should define their own standards on a suite of tools and platforms that support their research practices (<strong>Figure 1e</strong>).</p>
-<p><strong>Table 1:</strong></p>
+<p>Biomedical informatics is increasingly becoming essential to development of practices that promote open data, open software, and reproducible research in the scientific community. Computational reproduction of previously published results is enabled when scientists publicly release all research resources, from raw data to installable packages and source code, in a discoverable and archivally stable manner. Publications lacking data or source code sharing undermine scientific rigor, transparency, and reproducibility <span class="citation" data-cites="15x3dyh2J"><a href="#ref-15x3dyh2J" role="doc-biblioref">1</a></span>. Platforms already exist that support public release of scientific materials, but the current lack of strict enforcement by journals, academic institutions, and funding agencies has resulted in a loss of essential data and source code for many published studies.</p>
+<p>An astonishing number of bioinformatics and computational biology software tools are designed each year to accommodate increasingly bigger, complex, and specialized biomedical datasets <span class="citation" data-cites="13B4usRXp"><a href="#ref-13B4usRXp" role="doc-biblioref">2</a></span>. Many of those software tools have limited installability, are closed-source, or are hosted on Uniform Resource Locators (URLs) with undetermined archiving protocols <span class="citation" data-cites="nRK3rx6P"><a href="#ref-nRK3rx6P" role="doc-biblioref">3</a></span>. Lack of access to the source code of a software package undermines the auditing of methods and results and ultimately harms the transparency of research. Prior studies have addressed issues of computational reproducibility, including the need to automatize all data manipulation tasks and version control of code <span class="citation" data-cites="Pf3steOn"><a href="#ref-Pf3steOn" role="doc-biblioref">4</a></span>. We expand upon existing dialogue and emphasize reproducible research as computational training, journal policies, and financial support. We identify and discuss eight key recommendations across four different domains (<strong>Figure 1</strong>) to tackle the pressing need for scientists to improve software availability, usability, and archival stability in computational biology. By following a set of best practices <span class="citation" data-cites="yp3Au04m"><a href="#ref-yp3Au04m" role="doc-biblioref">5</a></span>, scientists can promote rigor and reproducibility, ultimately cultivating a sustainable, thriving research community.</p>
+<h2 id="teaching-computational-skills-to-produce-reproducible-research">1. Teaching computational skills to produce reproducible research</h2>
+<h3 id="increase-computational-training-opportunities-targeted-at-reproducibility.">Increase computational training opportunities targeted at reproducibility.</h3>
+<p>Biomedical researchers who use computational tools must acquire specific computational skills in order to successfully apply the techniques to a large amount of data. Undergraduate students who lack formal computational training can be taught the skills required to promote reproducibility via specialized courses <span class="citation" data-cites="tXK4zFfI"><a href="#ref-tXK4zFfI" role="doc-biblioref">6</a></span>. In addition to rigorous class training, advanced undergraduate and graduate students, postdoctoral scholars, clinical fellows, and faculty may benefit from short-term intensive workshops <span class="citation" data-cites="frogaOLI"><a href="#ref-frogaOLI" role="doc-biblioref">7</a></span>. Several institutions, including the University of California, Los Angeles, have successfully hosted workshop-based programs for over five years and serve as valuable resources for pedagogy and curriculum development <span class="citation" data-cites="13MM3iDcG"><a href="#ref-13MM3iDcG" role="doc-biblioref">8</a></span>,<span class="citation" data-cites="16xQjNgsl"><a href="#ref-16xQjNgsl" role="doc-biblioref">9</a></span>. Effective workshops for training researchers to use computational tools include curated, hands-on training experiences for implementing analysis tools, such as interactive cloud-based notebook technologies. Since 1998, Software Carpentry (<a href="https://software-carpentry.org/"><span class="underline">https://software-carpentry.org/</span></a>) has been holding volunteer-based training courses for researchers who wish to master the computational skills required to keep up with the demands of data- and computational-intensive research. Today’s biological researcher must learn to use the command line in order to run analyses in open-source software packages. , Comprehensive computational training programs are ideal platforms for training future life science and biomedical researchers in techniques that support reproducibility <strong>(Figure 1a)</strong>.</p>
+<h2 id="development-and-distribution-of-data-and-software">2. Development and distribution of data and software</h2>
+<h3 id="make-all-data-and-metadata-open-and-discoverable">2.1. Make all data and metadata open and discoverable</h3>
+<p>Open source code depends on the availability of open and shareable data, and access to the data used to produce important research results is key for auditing the rigor of published studies. Open access to datasets is imperative to building a thriving and sustainable scientific community where all researchers can access and analyze existing data. In practice, omics data of patients often cannot be publicly shared due to patient privacy and/or user agreement standards <span class="citation" data-cites="XNSkD2Xf"><a href="#ref-XNSkD2Xf" role="doc-biblioref">10</a></span>, <span class="citation" data-cites="C4n5NL6O"><a href="#ref-C4n5NL6O" role="doc-biblioref">11</a></span>, <span class="citation" data-cites="19FpaE98z"><a href="#ref-19FpaE98z" role="doc-biblioref">12</a></span>, <span class="citation" data-cites="6byZMlpn"><a href="#ref-6byZMlpn" role="doc-biblioref">13</a></span>, <span class="citation" data-cites="4hNVaOa3"><a href="#ref-4hNVaOa3" role="doc-biblioref">14</a></span>, <span class="citation" data-cites="1BSJmq1dk"><a href="#ref-1BSJmq1dk" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="f4rUvDTZ"><a href="#ref-f4rUvDTZ" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="w3jYWJ2x"><a href="#ref-w3jYWJ2x" role="doc-biblioref">17</a></span>. While not all data are freely and publicly available, many studies provide controlled data access where researchers can sign a user agreement to access the raw data once their scientific rationale is approved. In general, the global data sharing climate has shifted towards a positive direction; even in cases where raw data are not accessible by the public, summary data are often available.</p>
+<p>Truly open data sharing supports the reproducibility and robustness of science because it enables others to reuse data on larger-scale analyses. In addition, secondary analysis is an economically sustainable approach that can be adopted by scientists in countries or at institutions with limited computational resources <span class="citation" data-cites="9X2ojaGb"><a href="#ref-9X2ojaGb" role="doc-biblioref">18</a></span>, <span class="citation" data-cites="hAXMNctD"><a href="#ref-hAXMNctD" role="doc-biblioref">19</a></span>. Ideally, data should also be discoverable via centralized repositories, such as Sequence Read Archive (SRA) and Gene Expression Omnibus (GEO), and annotated with descriptive metadata to enhance data reuse <strong>(Figure 1b</strong>). When data are shared on centralized repositories in interoperable formats, other researchers can examine and re-analyze the data, challenge existing interpretations, and test new theories. Data sharing corresponds to the true spirit of science, where each new discovery is built upon previous work and ultimately allows us to “stand on the shoulders of giants”. Many important scientific discoveries have been solely based on shared data (e.g., economics, meteorology, and physics). Reusing data further emphasizes the quality and importance of generated data and contributes to the impact of the original, data-generating research.</p>
+<h3 id="build-and-use-open-source-software">2.2. Build and use open-source software</h3>
+<p>Software provides a foundation for scientific reproducibility — the ability to replicate published findings by running the same computational tool on data generated by the study <span class="citation" data-cites="yp3Au04m"><a href="#ref-yp3Au04m" role="doc-biblioref">5</a></span>;<span class="citation" data-cites="tXK4zFfI"><a href="#ref-tXK4zFfI" role="doc-biblioref">6</a></span>. Open-source academic software are advantageous to the scientific community, because closed-source proprietary software restricts the reproducibility of biomedical research. First, lack of access to the source code limits other researchers’ ability to audit results and reviewers’ ability to test the reproducibility prior to publication. Second, license restrictions may prohibit the creation of new functionalities that could be released on modified versions of existing tools. Not every laboratory or researcher can afford the cost of acquiring and maintaining proprietary software licenses. Reviewers may lack access to proprietary software and be unable to fully test the reproducibility of results. Widespread adoption of standard open-source licenses for data and software tools can enhance the rigor and impact of research by allowing any researcher and reviewer to reproduce published studies.</p>
+<p>Publicly releasing the source code does not guarantee the computational reproducibility of biomedical research. Software must be well documented with user manuals and installable in a user-friendly manner. Code used in a published analysis should be hosted on an archivally stable platform such as Software Heritage Archive (<a href="https://archive.softwareheritage.org"><span class="underline">https://archive.softwareheritage.org</span></a>) or Zenodo (<a href="https://zenodo.org"><span class="underline">https://zenodo.org</span></a>) (<strong>Figure 1c</strong>). Currently, over one-fourth of computational software resources cannot be accessed through the URLs provided in the original publication, suggesting that the repositories are poorly maintained <span class="citation" data-cites="nRK3rx6P"><a href="#ref-nRK3rx6P" role="doc-biblioref">3</a></span>. Additionally, many bioinformatics tools are too difficult, or even impossible, for a new user to install <span class="citation" data-cites="nRK3rx6P"><a href="#ref-nRK3rx6P" role="doc-biblioref">3</a></span>. Use of Open Source Initiative license models (<a href="https://opensource.org/licenses"><span class="underline">https://opensource.org/licenses</span></a>) allows users to easily use and adapt tools, increasing the sustainability of the biomedical research community. Hosting software tools on package managers allows users to easily install software with more straightforward commands and automatically acquire resolutions for software dependencies. Examples of package managers are Conda and Bioconda <strong>(Table 1).</strong></p>
+<p>We highlight CODE CHECK (<a href="https://sje30.github.io/codecheck/"><span class="underline">https://sje30.github.io/codecheck/</span></a>) as a promising platform to follow. CODE CHECK allows researchers to input code and data, and check that an analysis is reproducible. For verified analyses, CODE CHECK issues a time-stamped “<em>certificate of reproducible computation</em>”, which a reviewer of a paper can consider without running the analyses themselves.</p>
+<h2 id="leverage-platforms-that-enhance-reproducibility">2.3. Leverage platforms that enhance reproducibility</h2>
+<p>In addition to software and datasets, computational biology researchers commonly produce resources such as experiment protocols, workflows, and annotations. Storing and sharing these resources on a stable platform allows other researchers to cite the materials, which would increase the reproducibility of a paper and the visibility of previously developed methods. The inclusion of citable digital object identifiers (DOIs) also facilitates the discovery of reusable resources as they provide long-term access to published resources. Several innovative platforms designed to promote reproducibility have recently emerged (<strong>Figure 1d</strong>).</p>
+<h2 id="implementation-of-reproducible-research">3. Implementation of reproducible research</h2>
+<h3 id="make-tools-and-workflows-reproducible">3.1. Make tools and workflows reproducible</h3>
+<p>Virtual machines (VMs) and containers can be used to facilitate the reproducibility of open-source software tools. VMs are software pieces that are capable of encapsulating entire operating systems, libraries, codes, and data. Reproducibility can be enhanced with workflow-specific platforms <span class="citation" data-cites="74cIRMFz"><a href="#ref-74cIRMFz" role="doc-biblioref">20</a></span>, such as Galaxy and Tensorflow (for machine learning), and workflow standards, such as CWL (Common Workflow Language) <strong>(Table 1</strong>). Various platforms and tools are now available that support reproducible research and are already commonly used by life science and biomedical researchers (<strong>Table 1</strong>). Given the many different tools and platforms available, a research lab should define their own standards on a suite of tools and platforms that support their research practices (<strong>Figure 1e</strong>).</p>
+<p><strong>Table 1: Examples of tools and platforms to share reproducible resources.</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -211,13 +216,23 @@ Containers such as <strong>Docker</strong>(<a href="https://www.docker.com"><spa
 <strong>Galaxy</strong> (<a href="https://galaxyproject.org/"><span class="underline">https://galaxyproject.org/</span></a>) is a computational platform which allows users to share workflows, histories and wrapped tools in an easy-to-use and open source interface that even people without coding experience can use.,
 </p>
 <p>
+<strong>Tensorflow</strong> (<a href="https://www.tensorflow.org/"><span class="underline">https://www.tensorflow.org/</span></a>) is an open source end-to-end machine learning platform with broad use (e.g., data, library and neural networks). Tensorflow provides workflows to develop and train models using many other programming languages.
+</p>
+<p>
+<strong>Common workflow language (CWL)</strong> (<a href="https://www.commonwl.org/"><span class="underline">https://www.commonwl.org</span></a> )- is an open standard used to describe workflows and tools to make them portable and interoperable across different environments e.g. cloud, cluster or high performance computing.
+</p>
+</td>
+</tr>
+<tr class="odd">
+<td>
+<strong>Package managers</strong>
+</td>
+<td>
+<p>
 <strong>Conda</strong> (<a href="https://conda.io/"><span class="underline">https://conda.io/</span></a>) is a powerful open source package and management system that can quickly install, run and update packages and their dependencies.
 </p>
 <p>
 <strong>Bioconda</strong> (<a href="https://bioconda.github.io/"><span class="underline">https://bioconda.github.io/</span></a>) leverages Conda, it is a community project and package manager dedicated to the life sciences and biomedical tools.
-</p>
-<p>
-<strong>Common workflow language (CWL)</strong> (<a href="https://www.commonwl.org/"><span class="underline">https://www.commonwl.org</span></a> )- is an open standard used to describe workflows and tools to make them portable and interoperable across different environments e.g. cloud, cluster or high performance computing.
 </p>
 </td>
 </tr>
@@ -239,19 +254,19 @@ Containers such as <strong>Docker</strong>(<a href="https://www.docker.com"><spa
 </tr>
 </tbody>
 </table>
-<h2 id="make-living-and-reproducible-figures-and-papers">6. Make living and reproducible figures and papers</h2>
-<p>Open data and code is an important fundamental step toward transparency; however, over the last 5 years, it has been possible to break away from the static presentation of results and produce dynamic/living figures (<strong>Figure 1f</strong>). Dynamic figures allow a reader to alter the parameters as the code is actively running <span class="citation" data-cites="1GfgzrB2n"><a href="#ref-1GfgzrB2n" role="doc-biblioref">20</a></span> - an iterative process where a figure can evolve as new data is added.One such example is Stenci.la, a platform that supports executable documents, living figures, and Jupyter Notebooks (<strong>Table 1</strong>).</p>
-<h2 id="publish-with-journals-that-promote-reproducibility">7. Publish with journals that promote reproducibility</h2>
-<p>Journals have various publishing standards. A group of stakeholders, from academia and industry, defined a set of principles stating that research data should be Findable, Accessible, Interoperable, and Reusable (FAIR) <span class="citation" data-cites="6DjakjNS"><a href="#ref-6DjakjNS" role="doc-biblioref">21</a></span>. Researchers may elect to publish in journals that encourage best practices (e.g., adopting the FAIR principles <span class="citation" data-cites="6DjakjNS"><a href="#ref-6DjakjNS" role="doc-biblioref">21</a></span>) that aim to increase the impact of their work (<strong>Figure 1g</strong>). To ensure reproducibility, many journals now require that biomedical data generated by a published study be shared when the paper is released. For instance, <em>GigaScience</em> (gigasciencejournal.com) has been promoting reproducibility of analyses since 2012 (in addition to publishing open access) by mandating open data that follow the FAIR principles and mandates source code with an OSI approved license. During peer review, <em>GigaScience</em> also makes all supporting data and code available for Reviewers, and the editors ask the reviewers to test provided materials for reproducibility. Papers can aid this task by including VMs, containers, Jupyter notebooks, or packaged workflows (as opposed to static versions of these resources). Other journals, such as <em>Biostatistics</em>, have begun issuing badges for articles with validated data and code sharing <span class="citation" data-cites="OhOMTQcQ"><a href="#ref-OhOMTQcQ" role="doc-biblioref">22</a></span>)<strong>.</strong> In 2018 <em>eLife</em> published their first example of a dynamic and code-based (using the Stencila platform, <strong>Table 1</strong>) reproducible article. This approach enables data and analysis to be fully reproducible by the reader <span class="citation" data-cites="QvMlvgH1"><a href="#ref-QvMlvgH1" role="doc-biblioref">23</a></span> and challenges the traditional static representation of results using PDF or HTML formats.</p>
-<h2 id="support-reusable-resources">8. Support reusable resources</h2>
-<p>Successfully implementing and widely distributing software tools developed in academia involves unique challenges when compared to doing so in industry. In academia, software tools are developed by small groups comprised of graduate or postdoctoral scholars, who have fairly fast turn-over rates of 2-5 years <span class="citation" data-cites="17I2YPM2q"><a href="#ref-17I2YPM2q" role="doc-biblioref">24</a></span>. These groups are less likely to be professionally trained in software production standards when compared to software development groups in the industry, where holistic teams of specialists support the long-term maintenance of projects. In order to enhance the quality and reuse of open software, professionally trained software engineers should be hired to partner with the students and postdocs. To make this happen, funding agencies need better mechanisms of acknowledging and incentivizing funding earmarked for critical bioinformatics infrastructure (<strong>Figure 1h</strong>). In addition, funders should recognize the rigor of software development, rather than just considering ‘novelty’-based conventional criteria of research. The availability of well-resourced grant mechanisms to convert minimum viable products produced by trainees into reliable software could enhance the impact of research-grade software on the community <span class="citation" data-cites="C4n5NL6O"><a href="#ref-C4n5NL6O" role="doc-biblioref">10</a></span>. With the growing number of biomedical datasets open for reuse in the public domain, It is inspiring to see the encouragement and acknowledgment of data reuse and secondary analysis with the research Parasite Awards <span class="citation" data-cites="OAPRxFcC"><a href="#ref-OAPRxFcC" role="doc-biblioref">25</a></span>. The annual Parasite Awards recognizes the exceptional contributions for rigorous secondary analysis of data with recognition of the top-performing junior parasite and continued research parasite. More incentives, such as this, are required for software reuse.</p>
+<h3 id="implement-living-and-reproducible-figures-and-papers">3.2. Implement living and reproducible figures and papers</h3>
+<p>Archiving open data and code is an important fundamental step toward transparency; however, over the last 5 years, it has been possible to break away from the static presentation of results and produce dynamic, or “living,” figures (<strong>Figure 1f</strong>). Dynamic figures allow a reader to alter parameters of an analysis as the code is actively running <span class="citation" data-cites="1GfgzrB2n"><a href="#ref-1GfgzrB2n" role="doc-biblioref">21</a></span> – an iterative process where a data visualization can evolve in real time as new data is added. One such example is Stenci.la, a platform that supports executable documents, living figures, and Jupyter Notebooks (<strong>Table 1</strong>).</p>
+<h2 id="incentivizing-reproducible-research">4. Incentivizing reproducible research</h2>
+<h3 id="enforce-reproducibility-upon-the-peer-reviewing-process">4.1. Enforce reproducibility upon the peer-reviewing process</h3>
+<p>Journals have various publishing standards. Stakeholders from academia and industry have defined a set of principles stating that research data should be Findable, Accessible, Interoperable, and Reusable (FAIR) <span class="citation" data-cites="6DjakjNS"><a href="#ref-6DjakjNS" role="doc-biblioref">22</a></span> (<strong>Figure 1g</strong>). Researchers may elect to publish in journals that encourage best practices (e.g., adopting the FAIR principles <span class="citation" data-cites="6DjakjNS"><a href="#ref-6DjakjNS" role="doc-biblioref">22</a></span> that aim to increase the impact of their work. To ensure reproducibility, many journals now require that biomedical data generated by a published study be shared when the paper is released. For instance, <em>GigaScience</em> (<a href="https://academic.oup.com/gigascience"><span class="underline">https://academic.oup.com/gigascience</span></a>) has been promoting reproducibility of analyses since 2012 (in addition to publishing open access) by mandating open data arrangements that follow the FAIR principles and mandates availability of source code with an OSI approved license. During peer review, <em>GigaScience</em> makes all supporting data and code available for reviewers, and editors ask reviewers to test provided materials for reproducibility. Authors can aid this task by including VMs, containers, Jupyter Notebooks, or packaged workflows (as opposed to static versions of these resources). <em>Biostatistics</em> has begun issuing badges for articles with validated data and code sharing <span class="citation" data-cites="OhOMTQcQ"><a href="#ref-OhOMTQcQ" role="doc-biblioref">23</a></span>. In 2018, <em>eLife</em> published their first example of a dynamic and code-based reproducible figure in a peer-reviewed paper, using the Stencila platform (<strong>Table 1</strong>). This approach enables data and analysis to be fully reproducible by the reader <span class="citation" data-cites="QvMlvgH1"><a href="#ref-QvMlvgH1" role="doc-biblioref">24</a></span> and challenges the traditional static representation of results using PDF or HTML formats.</p>
+<h3 id="create-earmarked-funds-and-reporting-requirements-to-support-reusable-resources">4.2. Create earmarked funds and reporting requirements to support reusable resources</h3>
+<p>Successfully implementing and widely distributing software tools developed in academia involves unique challenges when compared to doing so in industry. In academia, software tools are developed by small groups comprised of graduate or postdoctoral scholars. These groups have fairly fast turn-over rates of 2-5 years and are less likely to be professionally trained in software production standards <span class="citation" data-cites="17I2YPM2q"><a href="#ref-17I2YPM2q" role="doc-biblioref">25</a></span>. In industry, software development groups are comprised of holistic teams of specialists capable of supporting long-term software maintenance. In order to enhance the quality and reuse of open software, academic groups should hire professionally trained software engineers to partner with students and postdocs. Clearly hiring industry software developers represents a burden on academic teams; funding agencies need clear mechanisms of acknowledging and incentivizing funding earmarked for critical bioinformatics infrastructure (<strong>Figure 1h</strong>). In addition, funders should recognize the rigor of software development, rather than just considering ‘novelty’-based conventional criteria of research. The availability of well-resourced grant mechanisms to convert minimum viable products produced by trainees into reliable software could enhance the impact of research-grade software on the community <span class="citation" data-cites="C4n5NL6O"><a href="#ref-C4n5NL6O" role="doc-biblioref">11</a></span>. With the growing number of biomedical datasets open for reuse in the public domain, it is inspiring to see the encouragement and acknowledgment of data reuse and secondary analysis with the Research Parasite Awards <span class="citation" data-cites="OAPRxFcC"><a href="#ref-OAPRxFcC" role="doc-biblioref">26</a></span>. The annual Parasite Awards recognizes the exceptional contributions for rigorous secondary analysis of data with recognition of the top-performing junior parasite and senior parasite. More initiatives, such as this, are needed for promoting software reuse.</p>
 <figure>
 <img src="images/Figure1.png" alt="" />
 </figure>
-<p><strong>Figure 1.</strong> Recommendations to improve reproducibility and rigor of
-research.</p>
+<p><strong>Figure 1.</strong> Recommendations to improve reproducibility and rigor of biomedical research organized across the four domains: Teaching computational skills to produce reproducible research (“Teach”); Development and distribution of data and software (“Develop and Distribute”); Implementation of reproducible research (“Implement”); and Incentivizing reproducible research (“Incentivize”).</p>
 <h2 id="conclusions">Conclusions</h2>
-<p>We outlined key recommendations to improve the rigor of biomedical studies and foster reproducibility in computational biology. The infrastructure required to systematically adopt best practices for reproducibility of biomedical research is largely in place. The remaining challenge to the systemic promotion of reproducibility is that incentives are not currently aligned to support good practices. Instead, current efforts rely on individual researchers electing to follow best practices, often at their own time and expense. We believe it is time for a fundamental cultural shift in the scientific community: rigor and reproducibility should become primary concerns in the criteria and decision-making process of designing studies, funding research, and writing and publishing results. Successful systematic adoption of best practices will require the buy-in of multiple stakeholders in the scientific communities, from publishers, academic institutions, funding agencies, and stakeholders. This increases the lifetime and value of published research as resources naturally become reusable, testable, and discoverable. Community-wide adoption of best practices for reproducibility is critical to realizing the full potential of fast-paced, collaborative analyses of large datasets in the biomedical and life sciences.</p>
+<p>We outlined eight key recommendations across four different domains to improve the rigor of biomedical studies and foster reproducibility in computational biology. The infrastructure required to systematically adopt best practices for reproducibility of biomedical research is largely in place; the remaining challenge is that incentives are not currently aligned to support good practices. Instead, current efforts rely on individual researchers electing to follow the best practices, often at their own time and expense. We believe it is time for a fundamental cultural shift in the scientific community: rigor and reproducibility should become primary concerns in the criteria and decision-making process of designing studies, funding research, and writing and publishing results. Successful systematic adoption of best practices will require the buy-in of multiple stakeholders in the scientific communities, from publishers, academic institutions, funding agencies, and stakeholders. Such commitment would increase the lifetime and scientific value of published research as resources naturally become reusable, testable, and discoverable. Community-wide adoption of best practices for reproducibility is critical to realizing the full potential of fast-paced, collaborative analyses of large datasets in the biomedical and life sciences. The platforms listed in this paper are provided for illustration. Given this is a fast-moving area, some of our recommendations are likely to be outdated within a short period and other short-lived. We acknowledge that new platforms may appear soon. Therefore we have created this dynamic version of this paper to reflect new platforms, as an example to command scientific rigor and reproducibility ourselves. The dynamic version was compiled in markdown and includes an extended list of references.</p>
 <h2 id="abbreviations">Abbreviations</h2>
 <p>CWL, Common Workflow Language; DOI, Digital Object identifier; FAIR, Findable, Accessible, Interoperable, and Reusable; GEO, Gene Expression Omnibus; OSI, Open Source Initiative; RRID, Research Resource ID; SRA, Sequence Read Archive; URLs, Uniform Resource Locators; VM, Virtual Machine.</p>
 <h2 id="competing-interests">Competing interests</h2>
@@ -311,8 +326,7 @@ interpretation of data and in writing the manuscript.</p>
 </tbody>
 </table>
 <h2 id="acknowledgments">Acknowledgments</h2>
-<p>We thank Dr. Lana Martin for discussions and helpful comments on the
-manuscript.</p>
+<p>We thank Dr. Lana Martin for helping with the design of Figure 1 and constructive discussions and comments on the manuscript.</p>
 <h2 id="authors-information">Authors’ Information</h2>
 <p>NAN is an Editor at <em>GigaScience</em> and is an open science advocate with
 over 7 years experience in publishing reproducible research.</p>
@@ -337,128 +351,134 @@ Serghei Mangul, Lana S. Martin, Eleazar Eskin, Ran Blekhman<br />
 <em>Genome Biology</em> (2019-02-27) <a href="https://doi.org/ggc6j6">https://doi.org/ggc6j6</a><br />
 DOI: <a href="https://doi.org/10.1186/s13059-019-1649-8">10.1186/s13059-019-1649-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30813962">30813962</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6391762">PMC6391762</a></p>
 </div>
+<div id="ref-Pf3steOn">
+<p>4. <strong>Ten Simple Rules for Reproducible Computational Research</strong><br />
+Geir Kjetil Sandve, Anton Nekrutenko, James Taylor, Eivind Hovig<br />
+<em>PLoS Computational Biology</em> (2013-10-24) <a href="https://doi.org/pjb">https://doi.org/pjb</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1003285">10.1371/journal.pcbi.1003285</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24204232">24204232</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812051">PMC3812051</a></p>
+</div>
 <div id="ref-yp3Au04m">
-<p>4. <strong>Tools and techniques for computational reproducibility</strong><br />
+<p>5. <strong>Tools and techniques for computational reproducibility</strong><br />
 Stephen R. Piccolo, Michael B. Frampton<br />
 <em>GigaScience</em> (2016-07-11) <a href="https://doi.org/gfs3cq">https://doi.org/gfs3cq</a><br />
 DOI: <a href="https://doi.org/10.1186/s13742-016-0135-4">10.1186/s13742-016-0135-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27401684">27401684</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4940747">PMC4940747</a></p>
 </div>
 <div id="ref-tXK4zFfI">
-<p>5. <strong>Strategies for Building Computing Skills To Support Microbiome Analysis: a Five-Year Perspective from the EDAMAME Workshop</strong><br />
+<p>6. <strong>Strategies for Building Computing Skills To Support Microbiome Analysis: a Five-Year Perspective from the EDAMAME Workshop</strong><br />
 Ashley Shade, Taylor K. Dunivin, Jinlyung Choi, Tracy K. Teal, Adina C. Howe<br />
 <em>mSystems</em> (2019-08-20) <a href="https://doi.org/ggkt8k">https://doi.org/ggkt8k</a><br />
 DOI: <a href="https://doi.org/10.1128/msystems.00297-19">10.1128/msystems.00297-19</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31431509">31431509</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6702294">PMC6702294</a></p>
 </div>
 <div id="ref-frogaOLI">
-<p>6. <strong>Making Workshops Work: Insights from EDAMAME</strong><br />
+<p>7. <strong>Making Workshops Work: Insights from EDAMAME</strong><br />
 Jaclyn N. Taroni<br />
 <em>mSystems</em> (2019-08-20) <a href="https://doi.org/ggkt8m">https://doi.org/ggkt8m</a><br />
 DOI: <a href="https://doi.org/10.1128/msystems.00467-19">10.1128/msystems.00467-19</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31431510">31431510</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6702295">PMC6702295</a></p>
 </div>
 <div id="ref-13MM3iDcG">
-<p>7. <strong>Addressing the Digital Divide in Contemporary Biology: Lessons from Teaching UNIX.</strong><br />
+<p>8. <strong>Addressing the Digital Divide in Contemporary Biology: Lessons from Teaching UNIX.</strong><br />
 Serghei Mangul, Lana S Martin, Alexander Hoffmann, Matteo Pellegrini, Eleazar Eskin<br />
 <em>Trends in biotechnology</em> (2017-07-15) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28720283">https://www.ncbi.nlm.nih.gov/pubmed/28720283</a><br />
 DOI: <a href="https://doi.org/10.1016/j.tibtech.2017.06.007">10.1016/j.tibtech.2017.06.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28720283">28720283</a></p>
 </div>
 <div id="ref-16xQjNgsl">
-<p>8. <strong>greenelab/GCB535</strong><br />
+<p>9. <strong>greenelab/GCB535</strong><br />
 Greene Laboratory<br />
 (2019-04-19) <a href="https://github.com/greenelab/GCB535">https://github.com/greenelab/GCB535</a></p>
 </div>
 <div id="ref-XNSkD2Xf">
-<p>9. <strong>Data Access in Genomics</strong><a href="https://www.nature.com/collections/diadgjciaj">https://www.nature.com/collections/diadgjciaj</a></p>
+<p>10. <strong>Data Access in Genomics</strong><a href="https://www.nature.com/collections/diadgjciaj">https://www.nature.com/collections/diadgjciaj</a></p>
 </div>
 <div id="ref-C4n5NL6O">
-<p>10. <strong>Data sharing and the future of science</strong><br />
+<p>11. <strong>Data sharing and the future of science</strong><br />
 Nature Communications<br />
 (2018-07-19) <a href="https://doi.org/cr99">https://doi.org/cr99</a><br />
 DOI: <a href="https://doi.org/10.1038/s41467-018-05227-z">10.1038/s41467-018-05227-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30026584">30026584</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6053389">PMC6053389</a></p>
 </div>
 <div id="ref-19FpaE98z">
-<p>11. <strong>No impact without data access</strong><br />
+<p>12. <strong>No impact without data access</strong><br />
 Nature Genetics<br />
 (2015-06-26) <a href="https://doi.org/ggkt8q">https://doi.org/ggkt8q</a><br />
 DOI: <a href="https://doi.org/10.1038/ng.3351">10.1038/ng.3351</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26111506">26111506</a></p>
 </div>
 <div id="ref-6byZMlpn">
-<p>12. <strong>Analysis commons, a team approach to discovery in a big-data environment for genetic epidemiology</strong><br />
+<p>13. <strong>Analysis commons, a team approach to discovery in a big-data environment for genetic epidemiology</strong><br />
 Jennifer A BrodyAlanna C Morrison, Joshua C Bis, Jeffrey R O’Connell, Michael R Brown, Jennifer E Huffman, Darren C Ames, Andrew Carroll, Matthew P Conomos, … <br />
 <em>Nature Genetics</em> (2017-10-27) <a href="https://doi.org/gchz7j">https://doi.org/gchz7j</a><br />
 DOI: <a href="https://doi.org/10.1038/ng.3968">10.1038/ng.3968</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29074945">29074945</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5720686">PMC5720686</a></p>
 </div>
 <div id="ref-4hNVaOa3">
-<p>13. <strong>Analysis of five years of controlled access and data sharing compliance at the International Cancer Genome Consortium</strong><em>Nature Genetics</em> (2016-02-24) <a href="https://doi.org/ggkt8r">https://doi.org/ggkt8r</a><br />
+<p>14. <strong>Analysis of five years of controlled access and data sharing compliance at the International Cancer Genome Consortium</strong><em>Nature Genetics</em> (2016-02-24) <a href="https://doi.org/ggkt8r">https://doi.org/ggkt8r</a><br />
 DOI: <a href="https://doi.org/10.1038/ng.3499">10.1038/ng.3499</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26906679">26906679</a></p>
 </div>
 <div id="ref-1BSJmq1dk">
-<p>14. <strong>DNA.Land is a framework to collect genomes and phenomes in the era of abundant genetic information</strong><br />
+<p>15. <strong>DNA.Land is a framework to collect genomes and phenomes in the era of abundant genetic information</strong><br />
 Jie Yuan, Assaf Gordon, Daniel Speyer, Richard Aufrichtig, Dina Zielinski, Joseph Pickrell, Yaniv Erlich<br />
 <em>Nature Genetics</em> (2018-01-26) <a href="https://doi.org/gdcc77">https://doi.org/gdcc77</a><br />
 DOI: <a href="https://doi.org/10.1038/s41588-017-0021-8">10.1038/s41588-017-0021-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29374253">29374253</a></p>
 </div>
 <div id="ref-f4rUvDTZ">
-<p>15. <strong>UK Biobank debuts as a powerful resource for genomic research.</strong><br />
+<p>16. <strong>UK Biobank debuts as a powerful resource for genomic research.</strong><br />
 Teri A Manolio<br />
 <em>Nature medicine</em> (2018-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30510254">https://www.ncbi.nlm.nih.gov/pubmed/30510254</a><br />
 DOI: <a href="https://doi.org/10.1038/s41591-018-0276-3">10.1038/s41591-018-0276-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30510254">30510254</a></p>
 </div>
 <div id="ref-w3jYWJ2x">
-<p>16. <strong>Using and producing publicly available genomic data to accelerate discovery in nephrology</strong><br />
+<p>17. <strong>Using and producing publicly available genomic data to accelerate discovery in nephrology</strong><br />
 Matthew G. Sampson, Hyun Min Kang<br />
 <em>Nature Reviews Nephrology</em> (2019-06-10) <a href="https://doi.org/ggkt8s">https://doi.org/ggkt8s</a><br />
 DOI: <a href="https://doi.org/10.1038/s41581-019-0166-z">10.1038/s41581-019-0166-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31182850">31182850</a></p>
 </div>
 <div id="ref-9X2ojaGb">
-<p>17. <strong>Using bioinformatics training to boost research capacities in resource-limited regions</strong><br />
+<p>18. <strong>Using bioinformatics training to boost research capacities in resource-limited regions</strong><br />
 Serghei Mangul, Lana Martin, Ben Langmead, Javier Sanchez Galan, Ian Toma, Pavel Pevzner, Eleazar Eskin<br />
 <em>PeerJ</em> (2018-12-06) <a href="https://doi.org/ggkt8t">https://doi.org/ggkt8t</a><br />
 DOI: <a href="https://doi.org/10.7287/peerj.preprints.27415v1">10.7287/peerj.preprints.27415v1</a></p>
 </div>
 <div id="ref-hAXMNctD">
-<p>18. <strong>How bioinformatics and open data can boost basic science in countries and universities with limited resources</strong><br />
+<p>19. <strong>How bioinformatics and open data can boost basic science in countries and universities with limited resources</strong><br />
 Serghei Mangul, Lana S. Martin, Ben Langmead, Javier E. Sanchez-Galan, Ian Toma, Fereydoun Hormozdiari, Pavel Pevzner, Eleazar Eskin<br />
 <em>Nature Biotechnology</em> (2019-03) <a href="https://doi.org/gfwnsm">https://doi.org/gfwnsm</a><br />
 DOI: <a href="https://doi.org/10.1038/s41587-019-0053-y">10.1038/s41587-019-0053-y</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30833765">30833765</a></p>
 </div>
 <div id="ref-74cIRMFz">
-<p>19. <strong>Practical Computational Reproducibility in the Life Sciences</strong><br />
+<p>20. <strong>Practical Computational Reproducibility in the Life Sciences</strong><br />
 Björn Grüning, John Chilton, Johannes Köster, Ryan Dale, Nicola Soranzo, Marius van den Beek, Jeremy Goecks, Rolf Backofen, Anton Nekrutenko, James Taylor<br />
 <em>Cell Systems</em> (2018-06) <a href="https://doi.org/ggdv3z">https://doi.org/ggdv3z</a><br />
 DOI: <a href="https://doi.org/10.1016/j.cels.2018.03.014">10.1016/j.cels.2018.03.014</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29953862">29953862</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6263957">PMC6263957</a></p>
 </div>
 <div id="ref-1GfgzrB2n">
-<p>20. <strong>Referee report. For: Sub-strains of Drosophila Canton-S differ markedly in their locomotor behavior [v1; approved 1, http://f1000r.es/3is]</strong><br />
+<p>21. <strong>Referee report. For: Sub-strains of Drosophila Canton-S differ markedly in their locomotor behavior [v1; approved 1, http://f1000r.es/3is]</strong><br />
 Gregg Roman<br />
 <em>F1000Research</em> (2014) <a href="https://doi.org/ggkt8w">https://doi.org/ggkt8w</a><br />
 DOI: <a href="https://doi.org/10.5256/f1000research.4564.r5630">10.5256/f1000research.4564.r5630</a></p>
 </div>
 <div id="ref-6DjakjNS">
-<p>21. <strong>The FAIR Guiding Principles for scientific data management and stewardship</strong><br />
+<p>22. <strong>The FAIR Guiding Principles for scientific data management and stewardship</strong><br />
 Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, … Barend Mons<br />
 <em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/bdd4">https://doi.org/bdd4</a><br />
 DOI: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26978244">26978244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175">PMC4792175</a></p>
 </div>
 <div id="ref-OhOMTQcQ">
-<p>22. <strong>Badges for sharing data and code at Biostatistics: an observational study</strong><br />
+<p>23. <strong>Badges for sharing data and code at Biostatistics: an observational study</strong><br />
 Anisa Rowhani-Farid, Adrian G. Barnett<br />
 <em>F1000Research</em> (2018-03-07) <a href="https://doi.org/gdsnhw">https://doi.org/gdsnhw</a><br />
 DOI: <a href="https://doi.org/10.12688/f1000research.13477.2">10.12688/f1000research.13477.2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29862016">29862016</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5843843">PMC5843843</a></p>
 </div>
 <div id="ref-QvMlvgH1">
-<p>23. <strong>Replication Study: Transcriptional amplification in tumor cells with elevated c-Myc</strong><br />
+<p>24. <strong>Replication Study: Transcriptional amplification in tumor cells with elevated c-Myc</strong><br />
 L Michelle Lewis, Meredith C Edwards, Zachary R Meyers, C Conover Talbot Jr, Haiping Hao, David Blum, Elizabeth Iorns, Rachel Tsui, Alexandria Denis, Nicole Perfito, … <br />
 <em>eLife</em> (2018-01-09) <a href="https://doi.org/gf9h4w">https://doi.org/gf9h4w</a><br />
 DOI: <a href="https://doi.org/10.7554/elife.30274">10.7554/elife.30274</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29313490">29313490</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5760205">PMC5760205</a></p>
 </div>
 <div id="ref-17I2YPM2q">
-<p>24. <strong>The anatomy of successful computational biology software</strong><br />
+<p>25. <strong>The anatomy of successful computational biology software</strong><br />
 Stephen Altschul, Barry Demchak, Richard Durbin, Robert Gentleman, Martin Krzywinski, Heng Li, Anton Nekrutenko, James Robinson, Wayne Rasband, James Taylor, Cole Trapnell<br />
 <em>Nature Biotechnology</em> (2013-10) <a href="https://doi.org/gf8nr4">https://doi.org/gf8nr4</a><br />
 DOI: <a href="https://doi.org/10.1038/nbt.2721">10.1038/nbt.2721</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24104757">24104757</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4166496">PMC4166496</a></p>
 </div>
 <div id="ref-OAPRxFcC">
-<p>25. <strong>Celebrating parasites.</strong><br />
+<p>26. <strong>Celebrating parasites.</strong><br />
 Casey S Greene, Lana X Garmire, Jack A Gilbert, Marylyn D Ritchie, Lawrence E Hunter<br />
 <em>Nature genetics</em> (2017-03-30) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28358134">https://www.ncbi.nlm.nih.gov/pubmed/28358134</a><br />
 DOI: <a href="https://doi.org/10.1038/ng.3830">10.1038/ng.3830</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28358134">28358134</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5710834">PMC5710834</a></p>
