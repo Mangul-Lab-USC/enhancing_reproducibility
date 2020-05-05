@@ -7,7 +7,7 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2020-04-08",
+    "date-meta": "2020-05-05",
     "author-meta": [
       "Jaqueline J. Brito",
       "Jiu Li",
@@ -17,10 +17,10 @@
       "Lana X. Garmire",
       "Serghei Mangul"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta name=\"citation_title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta property=\"og:title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta property=\"twitter:title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta name=\"dc.date\" content=\"2020-04-08\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-08\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Jiu Li\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine &amp;amp; Bioinformatics, Medical School, University of Michigan\" />\n<meta name=\"citation_author\" content=\"Jason H. Moore\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania,\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Nicole A. Nogoy\" />\n<meta name=\"citation_author_institution\" content=\"GigaScience\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5192-9835\" />\n<meta name=\"citation_author\" content=\"Lana X. Garmire\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta name=\"citation_title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta property=\"og:title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta property=\"twitter:title\" content=\"Recommendations to enhance rigor and reproducibility in biomedical research\" />\n<meta name=\"dc.date\" content=\"2020-05-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-05-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Jiu Li\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine &amp;amp; Bioinformatics, Medical School, University of Michigan\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6727-0812\" />\n<meta name=\"citation_author\" content=\"Jason H. Moore\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania,\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Nicole A. Nogoy\" />\n<meta name=\"citation_author_institution\" content=\"GigaScience\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5192-9835\" />\n<meta name=\"citation_author\" content=\"Lana X. Garmire\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1672-6917\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
   "manubot": {
-    "date": "April 8, 2020",
+    "date": "May 5, 2020",
     "authors": [
       {
         "github": "jaquejbrito",
@@ -39,6 +39,7 @@
       {
         "name": "Jiu Li",
         "initials": "JL",
+        "orcid": "0000-0001-6727-0812",
         "affiliations": [
           "Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan"
         ],
@@ -83,6 +84,7 @@
       {
         "name": "Lana X. Garmire",
         "initials": "LXG",
+        "orcid": "0000-0003-1672-6917",
         "affiliations": [
           "Department of Computational Medicine & Bioinformatics, Medical School, University of Michigan"
         ],
@@ -142,7 +144,7 @@
         "url": 2,
         "total": 26
       },
-      "word_count": 3516
+      "word_count": 3498
     }
   }
 }

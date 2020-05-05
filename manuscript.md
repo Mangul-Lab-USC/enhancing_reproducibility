@@ -7,7 +7,7 @@ author-meta:
 - Nicole A. Nogoy
 - Lana X. Garmire
 - Serghei Mangul
-date-meta: '2020-04-08'
+date-meta: '2020-05-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Recommendations to enhance rigor and reproducibility in biomedical research" />
 
-  <meta name="dc.date" content="2020-04-08" />
+  <meta name="dc.date" content="2020-05-05" />
 
-  <meta name="citation_publication_date" content="2020-04-08" />
+  <meta name="citation_publication_date" content="2020-05-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -54,6 +54,8 @@ header-includes: '<!--
 
   <meta name="citation_author_institution" content="Department of Computational Medicine &amp;amp; Bioinformatics, Medical School, University of Michigan" />
 
+  <meta name="citation_author_orcid" content="0000-0001-6727-0812" />
+
   <meta name="citation_author" content="Jason H. Moore" />
 
   <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology, and Informatics, Institute for Biomedical Informatics, University of Pennsylvania" />
@@ -75,6 +77,8 @@ header-includes: '<!--
   <meta name="citation_author" content="Lana X. Garmire" />
 
   <meta name="citation_author_institution" content="Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan" />
+
+  <meta name="citation_author_orcid" content="0000-0003-1672-6917" />
 
   <meta name="citation_author" content="Serghei Mangul" />
 
@@ -107,7 +111,7 @@ title: Recommendations to enhance rigor and reproducibility in biomedical resear
 <small><em>
 This manuscript
 was automatically generated
-on April 8, 2020.
+on May 5, 2020.
 </em></small>
 
 ## Authors
@@ -126,7 +130,9 @@ on April 8, 2020.
      Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
   </small>
 
-+ **Jiu Li**<br><br>
++ **Jiu Li**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-6727-0812](https://orcid.org/0000-0001-6727-0812)<br>
   <small>
      Department of Computational Medicine &amp; Bioinformatics, Medical School, University of Michigan
   </small>
@@ -150,7 +156,9 @@ on April 8, 2020.
      GigaScience
   </small>
 
-+ **Lana X. Garmire**<br><br>
++ **Lana X. Garmire**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1672-6917](https://orcid.org/0000-0003-1672-6917)<br>
   <small>
      Department of Computational Medicine & Bioinformatics, Medical School, University of Michigan
   </small>
@@ -220,7 +228,6 @@ Software provides a foundation for scientific reproducibility --- the ability to
 
 Publicly releasing the source code does not guarantee the computational reproducibility of biomedical research. Software must be well documented with user manuals and installable in a user-friendly manner. Code used in a published analysis should be hosted on an archivally stable platform such as Software Heritage Archive ([<span class="underline">https://archive.softwareheritage.org</span>](https://archive.softwareheritage.org)) or Zenodo ([<span class="underline">https://zenodo.org</span>](https://zenodo.org)) (**Figure 1c**). Currently, over one-fourth of computational software resources cannot be accessed through the URLs provided in the original publication, suggesting that the repositories are poorly maintained @nRK3rx6P. Additionally, many bioinformatics tools are too difficult, or even impossible, for a new user to install @nRK3rx6P. Use of Open Source Initiative license models ([<span class="underline">https://opensource.org/licenses</span>](https://opensource.org/licenses)) allows users to easily use and adapt tools, increasing the sustainability of the biomedical research community. Hosting software tools on package managers allows users to easily install software with more straightforward commands and automatically acquire resolutions for software dependencies. Examples of package managers are Conda and Bioconda **(Table 1).**
 
-We highlight CODE CHECK ([<span class="underline">https://sje30.github.io/codecheck/</span>](https://sje30.github.io/codecheck/)) as a promising platform to follow. CODE CHECK allows researchers to input code and data, and check that an analysis is reproducible. For verified analyses, CODE CHECK issues a time-stamped "*certificate of reproducible computation*", which a reviewer of a paper can consider without running the analyses themselves.
 
 
 ### 2.3. Leverage platforms that enhance reproducibility
@@ -247,7 +254,7 @@ Virtual machines (VMs) and containers can be used to facilitate the reproducibil
 <tbody>
 <tr class="odd">
 <td><strong>Reproducible and open methods</strong></td>
-<td><strong>Protocols.io</strong> is an open-source protocol repository, where researchers can manage, share, tweak, optimize and adopt existing methods even after a scientist has left a lab.</td>
+<td><strong>Protocols.io</strong> (RRID:SCR_010490)  is an open-source protocol repository, where researchers can manage, share, tweak, optimize and adopt existing methods even after a scientist has left a lab.</td>
 </tr>
 <tr class="even">
 <td><strong>RRIDs</strong></td>
@@ -255,28 +262,31 @@ Virtual machines (VMs) and containers can be used to facilitate the reproducibil
 </tr>
 <tr class="odd">
 <td><strong>Annotations</strong></td>
-<td><strong>Hypothes.is</strong> is an open-source annotation tool that allows any researcher to annotate any resource on the web, including to create annotations for personal use or as part of conversations with private groups or the general public.</td>
+<td><strong>Hypothes.is</strong> (RRID:SCR_000430) is an open-source annotation tool that allows any researcher to annotate any resource on the web, including to create annotations for personal use or as part of conversations with private groups or the general public.</td>
 </tr>
 <tr class="even">
 <td><strong>Virtual Machines &amp; Containers</strong></td>
-<td>Containers such as <strong>Docker</strong>(<a href="https://www.docker.com"><span class="underline">www.docker.com</span></a>), and <strong>Singularity</strong> (<a href="https://singularity.lbl.gov"><span class="underline">singularity.lbl.gov</span></a>) are lightweight solutions compared to VMs as they do not encapsulate the operating system; rather, they rely on the host kernel to run required functions. Both VMs and containers are shared via image files and can be included as supplementary material at certain journals or stored in Zenodo (<a href="https://zenodo.org/"><span class="underline">https://zenodo.org/</span></a>), Figshare (<a href="https://figshare.com/"><span class="underline">https://figshare.com/</span></a>), or other general-purpose archival repositories.</td>
+<td>Containers such as <strong>Docker</strong>(<a href="https://www.docker.com"><span class="underline">www.docker.com</span></a>), and <strong>Singularity</strong> (<a href="https://singularity.lbl.gov"><span class="underline">singularity.lbl.gov</span></a>) are lightweight solutions compared to VMs as they do not encapsulate the operating system; rather, they rely on the host kernel to run required functions. Both VMs and containers are shared via image files and can be included as supplementary material at certain journals or stored in Zenodo (<a href="https://zenodo.org/"><span class="underline">https://zenodo.org/</span></a>, RRID:SCR_004129), Figshare (<a href="https://figshare.com/"><span class="underline">https://figshare.com/</span></a>, RRID:SCR_004328), or other general-purpose archival repositories.</td>
 </tr>
 <tr class="odd">
 <td><strong>Reproducible workflows</strong></td>
-<td><p><strong>Galaxy</strong> (<a href="https://galaxyproject.org/"><span class="underline">https://galaxyproject.org/</span></a>) is a computational platform which allows users to share workflows, histories and wrapped tools in an easy-to-use and open source interface that even people without coding experience can use.,</p>
-<p><strong>Tensorflow</strong> (<a href="https://www.tensorflow.org/"><span class="underline">https://www.tensorflow.org/</span></a>) is an open source end-to-end machine learning platform with broad use (e.g., data, library and neural networks). Tensorflow provides workflows to develop and train models using many other programming languages.</p>
-<p><strong>Common workflow language (CWL)</strong> (<a href="https://www.commonwl.org/"><span class="underline">https://www.commonwl.org</span></a> )- is an open standard used to describe workflows and tools to make them portable and interoperable across different environments e.g. cloud, cluster or high performance computing.</p></td>
+<td><p><strong>Galaxy</strong> (<a href="https://galaxyproject.org/"><span class="underline">https://galaxyproject.org/</span></a>, RRID:SCR_006281) is a computational platform which allows users to share workflows, histories and wrapped tools in an easy-to-use and open source interface that even people without coding experience can use.,</p>
+<p><strong>Common workflow language (CWL)</strong> (<a href="https://www.commonwl.org/"><span class="underline">https://www.commonwl.org</span></a>, RRID:SCR_015528)- is an open standard used to describe workflows and tools to make them portable and interoperable across different environments e.g. cloud, cluster or high performance computing.</p>
+<p><strong>Tensorflow</strong> (<a href="https://www.tensorflow.org/"><span class="underline">https://www.tensorflow.org/</span></a>, RRID:SCR_016345) is an open source end-to-end machine learning platform with broad use (e.g., data, library and neural networks). Tensorflow provides workflows to develop and train models using many other programming languages.</p>
+<p><strong>Snakemake </strong>(<a href="https://snakemake.readthedocs.io/en/stable/"><span class="underline">https://snakemake.readthedocs.io/en/stable/</span></a>, RRID:SCR_003475) is a tool to create reproducible and scalable data-analyses workflows, with a language based on python. Snakemake makes it easier to execute data analyses on different environments without modification on the workflow definition.
+</p></td>
 </tr>
 <tr class="odd">
 <td><strong>Package managers</strong></td>
 <td><p><strong>Conda</strong> (<a href="https://conda.io/"><span class="underline">https://conda.io/</span></a>) is a powerful open source package and management system that can quickly install, run and update packages and their dependencies.</p>
-<p><strong>Bioconda</strong> (<a href="https://bioconda.github.io/"><span class="underline">https://bioconda.github.io/</span></a>) leverages Conda, it is a community project and package manager dedicated to the life sciences and biomedical tools.</p></td>
+<p><strong>Bioconda</strong> (<a href="https://bioconda.github.io/"><span class="underline">https://bioconda.github.io/</span></a>, RRID:SCR_018316) leverages Conda, it is a community project and package manager dedicated to the life sciences and biomedical tools.</p></td>
 </tr>
 <tr class="even">
 <td><strong>Reproducible documents &amp; Figures</strong></td>
-<td><p><strong>Stencila</strong> (<a href="https://stenci.la/"><span class="underline">https://stenci.la/</span></a>) is an open source framework for executable documents and living figures (using R scripts). It supports commonly used environments and tools, such as Juptyer notebook, RMarkdown, Python and SQL.</p>
+<td>
 <p><strong>Jupyter Notebook</strong> (<a href="https://jupyter.org/"><span class="underline">https://jupyter.org/</span></a>) allows for the creation of sharing of live code, equations, visualizations and narrative text. The application supports over 40 different programming languages and can be used to leverage big data.</p>
-<p><strong>MyBinder</strong> (<a href="https://mybinder.org/"><span class="underline">https://mybinder.org/</span></a>)  is an application that collects and ‘binds’ interactive jupyter notebooks into a Binder repository and can also create a Docker image of that.</p></td>
+<p><strong>MyBinder</strong> (<a href="https://mybinder.org/"><span class="underline">https://mybinder.org/</span></a>, RRID:SCR_016437)  is an application that collects and ‘binds’ interactive jupyter notebooks into a Binder repository and can also create a Docker image of that.</p>
+<p><strong>Stencila</strong> (<a href="https://stenci.la/"><span class="underline">https://stenci.la/</span></a>, RRID:SCR_018317) is an open source framework for executable documents and living figures (using R scripts). It supports commonly used environments and tools, such as Juptyer notebook, RMarkdown, Python and SQL.</p></td>
 </tr>
 </tbody>
 </table>
@@ -306,7 +316,7 @@ Successfully implementing and widely distributing software tools developed in ac
 ## Conclusions
 
 
-We outlined eight key recommendations across four different domains to improve the rigor of biomedical studies and foster reproducibility in computational biology. The infrastructure required to systematically adopt best practices for reproducibility of biomedical research is largely in place; the remaining challenge is that incentives are not currently aligned to support good practices. Instead, current efforts rely on individual researchers electing to follow the best practices, often at their own time and expense. We believe it is time for a fundamental cultural shift in the scientific community: rigor and reproducibility should become primary concerns in the criteria and decision-making process of designing studies, funding research, and writing and publishing results. Successful systematic adoption of best practices will require the buy-in of multiple stakeholders in the scientific communities, from publishers, academic institutions, funding agencies, and stakeholders. Such commitment would increase the lifetime and scientific value of published research as resources naturally become reusable, testable, and discoverable. Community-wide adoption of best practices for reproducibility is critical to realizing the full potential of fast-paced, collaborative analyses of large datasets in the biomedical and life sciences. The platforms listed in this paper are provided for illustration. Given this is a fast-moving area, some of our recommendations are likely to be outdated within a short period and other short-lived. We acknowledge that new platforms may appear soon. Therefore we have created this dynamic version of this paper to reflect new platforms, as an example to command scientific rigor and reproducibility ourselves. The dynamic version was compiled in markdown and includes an extended list of references.
+We outlined eight key recommendations across four different domains to improve the rigor of biomedical studies and foster reproducibility in computational biology. The infrastructure required to systematically adopt best practices for reproducibility of biomedical research is largely in place; the remaining challenge is that incentives are not currently aligned to support good practices. Instead, current efforts rely on individual researchers electing to follow the best practices, often at their own time and expense. We believe it is time for a fundamental cultural shift in the scientific community: rigor and reproducibility should become primary concerns in the criteria and decision-making process of designing studies, funding research, and writing and publishing results. Successful systematic adoption of best practices will require the buy-in of multiple stakeholders in the scientific communities, from publishers, academic institutions, funding agencies, and stakeholders. Such commitment would increase the lifetime and scientific value of published research as resources naturally become reusable, testable, and discoverable. Community-wide adoption of best practices for reproducibility is critical to realizing the full potential of fast-paced, collaborative analyses of large datasets in the biomedical and life sciences. The platforms listed in this paper are provided for illustration. Given this is a fast-moving area, some of our recommendations are likely to be outdated within a short period and other short-lived. We acknowledge that new platforms may appear soon. Therefore we have created this dynamic version of this paper to reflect new platforms, as an example to command scientific rigor and reproducibility ourselves.
 
 
 ##  Abbreviations
